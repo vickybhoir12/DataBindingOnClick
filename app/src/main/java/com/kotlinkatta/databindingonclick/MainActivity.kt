@@ -2,6 +2,7 @@ package com.kotlinkatta.databindingonclick
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -10,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(applicationContext,"this is test program",Toast.LENGTH_LONG).show()
+        Log.d("sasfd","afafa")
     }
 }
