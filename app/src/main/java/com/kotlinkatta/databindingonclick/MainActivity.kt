@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(applicationContext,"this is test program",Toast.LENGTH_LONG).show()
         Log.d("sasfd","afafa")
+        Log.d("sasfd","afafa1111")
     }
 }
